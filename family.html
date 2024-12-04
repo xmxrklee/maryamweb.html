@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family</title>
+  <style>
+    
+    body {
+      margin: 0;
+      font-family: "Times New Roman", sans-serif;
+      background-image: url(bluewhite.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+   
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+   
+    div.gallery {
+      border: 1px solid #ccc;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%; /* Ensures image takes the full width of the gallery container */
+      height: 200px; /* Fixed height for uniformity */
+      object-fit: cover; /* Ensures the image doesn't distort */
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+ 
+  <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="biodata.html">Biodata</a>
+            <a href="family.html" >Family</a>
+            <a href="education.html" >Education</a>
+            <a href="interest.html" >Interest</a>
+            <a href="gallery.html" >Gallery</a>
+  </div>
+<br><br><br><br>
+<br><br><br><br>
+
+  <!-- Main Content -->
+  <center><h2>MY FAMILY</p></h2></center>
+
+
+  <div class="responsive">
+    <div class="gallery">
+      <img src="abahmak.jpeg" alt="abahmak">
+      <div class="desc">Father and Mother</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <img src="hariszati.jpeg" alt="hariszati">
+      <div class="desc">First Brother and Sister</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <img src="soffiansoleha.jpeg" alt="soffiansoleha">
+      <div class="desc">Second Brother and Sister</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <img src="hafizazra.jpeg" alt="hafizazra">
+      <div class="desc">Third Brother and Sister</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <img src="budu.jpeg" alt="budu">
+      <div class="desc">My Cat</div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+</body>
+</html>

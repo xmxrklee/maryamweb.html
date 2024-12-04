@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <style>
+   
+    body {
+      margin: 0;
+      font-family: "Times New Roman", sans-serif;
+      background-image: url(bluewhite.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+   
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+  
+  <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="biodata.html">Biodata</a>
+            <a href="family.html" >Family</a>
+            <a href="education.html" >Education</a>
+            <a href="interest.html" >Interest</a>
+            <a href="gallery.html" >Gallery</a>
+  </div>
+
+
+<br><br><br><br>
+<br><br><br><br>
+
+<div class="header">
+  <h1>MY GALLERY</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="abahmak.jpeg" style="width:100%">
+    <img src="red.jpeg" style="width:100%">
+    <img src="kaiser.jpeg" style="width:100%">
+    <img src="nct.jpeg" style="width:100%">
+    <img src="humaira.jpeg" style="width:100%">
+    
+  </div>
+  <div class="column">
+    <img src="hariszati.jpeg" style="width:100%">
+    <img src="highschool.jpeg" style="width:100%">
+    <img src="balu.jpeg" style="width:100%">
+    <img src="gokurakugai.jpeg" style="width:100%">
+    <img src="cousin.jpeg" style="width:100%">
+    
+  </div>  
+  <div class="column">
+    <img src="soffiansoleha.jpeg" style="width:100%">
+    <img src="roommate.jpeg" style="width:100%">
+    <img src="hafizoh.jpeg" style="width:100%">
+    <img src="hospital.jpeg" style="width:100%">
+    <img src="cat.jpeg" style="width:100%">
+    
+  </div>
+  <div class="column">
+    <img src="hafizazra.jpeg" style="width:100%">
+    <img src="bookxcess.jpeg" style="width:100%">
+    <img src="three.jpeg" style="width:100%">
+    <img src="penang.jpeg" style="width:100%">
+    <img src="pc.jpeg" style="width:100%">
+    
+  </div>
+</div>
+
+</body>
+</html>
